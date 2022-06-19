@@ -1,0 +1,50 @@
+@mixin geradient-black-blue {
+    background: $secondary;
+    background: linear-gradient(0deg, $secondary 0%, $primary 88%);
+    color: white;
+}
+
+@mixin button-gradient-transition {
+    background-color: $primary;
+    color: #fff;
+    &:hover{
+        background: $dark;
+        color: #fff;
+        transform: scale(1.1);
+        transition: all .5s;
+    }
+}
+
+
+@mixin linkedin-button {
+    border: 3px solid #fff;
+    background-color: #0a5c83;
+    color: white;
+    &:hover{
+        background-color: white;
+        color: #0a5c83;
+        transform: scale(1.1);
+        transition: all .5s;
+        
+
+    }
+}
+
+@mixin h2-underline {
+    h2 {
+        padding: 30px 0 8px;
+        position: relative;
+      }
+      
+      h2::before {
+        content: "";
+        position: absolute;
+        left: 7%;
+        bottom: 16px;
+        width: 200px;
+        height: 26px;
+        transform: skew(-12deg) translateX(-50%);
+        background: linear-gradient(0deg, rgba(0, 255, 140, 0.115) 0%, rgba(0, 129, 6, 0.126) 50%, rgba(25, 168, 0, 0.077) 100%); 
+        z-index: -1;
+      }
+}

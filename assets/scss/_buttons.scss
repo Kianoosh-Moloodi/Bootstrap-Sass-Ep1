@@ -1,0 +1,7 @@
+.default-button{
+    @include button-gradient-transition;
+}
+
+.linkedin-button{
+    @include linkedin-button;
+}

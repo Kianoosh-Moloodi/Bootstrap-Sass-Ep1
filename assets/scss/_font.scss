@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
+body{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+  }
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.navbar{
+  font-family: 'Bebas Neue', cursive;
+  font-size: larger;
+}  
+
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+.my-header{
+  h1{
+    font-family: 'Cookie', cursive;
+    font-size: 4rem;
+  }
+  p{
+    font-family: 'Ubuntu', sans-serif;
+  }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+.linkedin-button{
+  font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap');
+
+.my-service-01{
+  h2{
+    font-family: 'Bebas Neue', cursive;
+    color: rgb(3, 49, 92);
+  }
+  p{
+    font-family: 'Ubuntu', sans-serif;
+  }
+
+}
+
+.my-service-02{
+  h2{
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+  }
+}
+
+
+.my-service-03{
+  h2{
+    font-family: 'Bebas Neue', cursive;
+    color: rgb(0, 0, 0);
+  }
+}
+
+.my-service-04{
+  h2{
+    font-family: 'Bebas Neue', cursive;
+  }
+}
+
+.my-footer{
+  h4,
+  h5{
+    font-family: 'Bebas Neue', cursive;
+  }
+}

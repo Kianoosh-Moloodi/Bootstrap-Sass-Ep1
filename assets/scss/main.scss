@@ -1,0 +1,14 @@
+$primary:rgb(0, 60, 116);
+$secondary:rgb(44, 215, 53);
+
+html,
+body{
+width:100%;
+overflow-x:hidden;
+}
+
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+@import "./mixins";
+@import "./buttons";
+@import "./font";
+@import "./sections";
